@@ -20,3 +20,34 @@ var twoSum = function(nums, target){
             }
         }
     }
+
+
+    const pair_with_targetsum = function(arr, target_sum) {
+        // TODO: Write your code here
+        for (let i=0; i<arr.length;i++){
+          for(let j=-i+1; j<arr.length; j++){
+            if(arr[i] + arr[j] === target_sum){
+              return [i,j]
+            }
+          }
+        }
+        return [-1, -1];
+      }
+
+
+    //   const pair_with_targetsum = function(arr, target_sum) {
+    //     // TODO: Write your code here
+    //     for (let i=0; i<arr.length;i++){
+    //       for(let j=-i+1; j<arr.length; j++){
+    //         if(arr[i] + arr[j] === target_sum){
+    //           return [i,j]
+    //         }
+    //       }
+    //     }
+    //     return [-1, -1];
+    //   }
+            
+
+    const pair_with_targetsum = function(arr, target_sum){
+        
+    }

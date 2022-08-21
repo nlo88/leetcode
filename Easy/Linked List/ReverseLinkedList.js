@@ -24,7 +24,5 @@ var reverseList = (head) => {
         
     }
     return temp
-    
-   
-    
+  
 };
