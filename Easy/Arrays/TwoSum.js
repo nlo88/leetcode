@@ -22,11 +22,11 @@ var twoSum = function(nums, target){
     }
 
 
-    const pair_with_targetsum = function(arr, target_sum) {
+    const pairwithTargetsum = function(arr, targetSum) {
         // TODO: Write your code here
         for (let i=0; i<arr.length;i++){
           for(let j=-i+1; j<arr.length; j++){
-            if(arr[i] + arr[j] === target_sum){
+            if(arr[i] + arr[j] === targetSum){
               return [i,j]
             }
           }
@@ -47,7 +47,4 @@ var twoSum = function(nums, target){
     //     return [-1, -1];
     //   }
             
-
-    const pair_with_targetsum = function(arr, target_sum){
-        
-    }
+   
