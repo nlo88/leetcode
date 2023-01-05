@@ -43,7 +43,7 @@ values increase  --->
  [i + 1, j + 1]
  [0 + 1, 1 + 1]
  [1, 2]
-          <--------- values increase
+          <--------- values decrease
 
 */
 
@@ -59,8 +59,7 @@ var twoSum = function(numbers, target) {
     //      i++;
     //     } else {
     //     return [i + 1, j + 1];
-    //     } 
-   
+    //     }  
     // }
 
     let j = numbers.length -1
