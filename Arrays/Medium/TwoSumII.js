@@ -12,6 +12,7 @@ You may not use the same element twice.
 
 Your solution must use only constant extra space.
 
+sorted in non-decreasing order --> from lowest to highest
 
 check:
 function
@@ -63,6 +64,9 @@ var twoSum = function(numbers, target) {
     }
 };
 
+console.log(twoSum([2,7,11,15], 9))
+console.log(twoSum([2,3,4], 6))
+console.log(twoSum([-1,0], -1))
 
 
 
